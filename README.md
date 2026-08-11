@@ -207,27 +207,6 @@ The pipeline performs several data quality operations before analytics:
 
 These checks help ensure that only cleaned and validated records are used for downstream analytics.
 
-## Repository Structure
-
-A typical repository structure for this project can be organized as:
-
-```text
-Azure-Retail-Analytics-Data-Pipeline/
-│
-├── README.md
-│
-├── notebooks/
-│   └── Azure Retail Analytics Data Pipeline.ipynb
-│
-├── adf/
-│   └── <Azure Data Factory pipeline files>
-│
-└── data/
-    └── <sample or documentation files, if applicable>
-```
-
-> The exact repository structure can vary depending on how the Azure Data Factory and Databricks artifacts are exported and maintained in Git.
-
 ## Key Outcomes
 
 - Built an end-to-end cloud data pipeline using Azure services.
